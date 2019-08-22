@@ -17,7 +17,7 @@ If you have some problem open an issues on GitHub
 ## Acknowledgments
 
 * [Serenaitalia](https://serenaitalia.deviantart.com/gallery/) for the logo
-
+* [Noah Blon](https://codepen.io/noahblon/pen/OyajvN) for the slider style
 ## License
 
 This project is licensed under the GNU General Public License v3.0 License - see the [LICENSE](LICENSE) file for details
