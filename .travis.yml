@@ -1,7 +1,5 @@
 language: node_js
-
-node:
-  - 8
+dist: bionic
 
 before_install:
   - npm install gulp -g
