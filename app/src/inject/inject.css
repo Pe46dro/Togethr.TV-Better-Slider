@@ -1,0 +1,38 @@
+input[type="range"]#ttbs-slider { 
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    position: relative;
+    overflow: hidden;
+    height: 20px;
+    border-radius: 0;
+    cursor: ew-resize;
+	outline-width: 0;
+}
+
+input[type="range"]#ttbs-slider::-webkit-slider-runnable-track {
+    background: #ddd;
+}
+
+input[type="range"]#ttbs-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 20px;
+    background: #fff;
+    box-shadow: -100vw 0 0 100vw #3498db;
+    border: 2px solid #999;
+}
+
+input[type="range"]#ttbs-slider::-moz-range-track {
+    height: 20px;
+    background: #ddd;
+}
+
+input[type="range"]#ttbs-slider::-moz-range-thumb {
+    background: #fff;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #999;
+    border-radius: 0 !important;
+    box-shadow: -100vw 0 0 100vw #3498db;
+    box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "togethr-tv-better-slider",
+  "private": true,
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/polyfill": "7.2.5",
+    "@babel/register": "^7.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-zip": "^3.2.0",
+    "run-sequence": "^1.1.5"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true
+    },
+    "globals": {
+      "chrome": true
+    },
+    "rules": {
+      "eol-last": 0,
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}
