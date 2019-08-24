@@ -3,10 +3,12 @@ input[type="range"]#ttbs-slider {
     -webkit-appearance: none;
     position: relative;
     overflow: hidden;
-    height: 20px;
+    height: 40px;
     border-radius: 0;
     cursor: ew-resize;
 	outline-width: 0;
+	display: inline-block;
+    width: 92%;
 }
 
 input[type="range"]#ttbs-slider::-webkit-slider-runnable-track {
@@ -16,23 +18,48 @@ input[type="range"]#ttbs-slider::-webkit-slider-runnable-track {
 input[type="range"]#ttbs-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 15px;
-    height: 20px;
+    height: 40px;
     background: #fff;
     box-shadow: -100vw 0 0 100vw #3498db;
     border: 2px solid #999;
 }
 
 input[type="range"]#ttbs-slider::-moz-range-track {
-    height: 20px;
+    height: 40px;
     background: #ddd;
 }
 
 input[type="range"]#ttbs-slider::-moz-range-thumb {
     background: #fff;
-    height: 20px;
+    height: 40px;
     width: 20px;
     border: 3px solid #999;
-    border-radius: 0 !important;
+    border-radius: 0;
     box-shadow: -100vw 0 0 100vw #3498db;
     box-sizing: border-box;
 }
+
+p#ttbs-slider-value {
+    display: inline-block;
+    min-width: 8%;
+    font-size: 17px;
+    vertical-align: middle;
+    margin: -32px auto 0 auto;
+    text-align: center;
+}
+
+/**********
+	Night Mode ?
+
+.panel-primary {
+    border-color: #222;
+}
+.panel {
+    background-color: #333;
+}
+
+.content-block {
+    background-color: #222;
+}
+
+************/
