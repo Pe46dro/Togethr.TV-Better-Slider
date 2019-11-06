@@ -46,20 +46,5 @@ p#ttbs-slider-value {
     vertical-align: middle;
     margin: -32px auto 0 auto;
     text-align: center;
+    color: #fff;
 }
-
-/**********
-	Night Mode ?
-
-.panel-primary {
-    border-color: #222;
-}
-.panel {
-    background-color: #333;
-}
-
-.content-block {
-    background-color: #222;
-}
-
-************/
