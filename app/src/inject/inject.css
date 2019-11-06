@@ -46,20 +46,58 @@ p#ttbs-slider-value {
     vertical-align: middle;
     margin: -32px auto 0 auto;
     text-align: center;
+    color: #fff;
 }
 
-/**********
-	Night Mode ?
+/********************************
+	Cinema Mode 
+********************************/
 
-.panel-primary {
-    border-color: #222;
+#header-1 {
+    height: 35px;
 }
-.panel {
+
+#header-1 .main-nav {
+    height: 55px;
+}
+
+#header-1 .brand-img {
+    padding: 10px 0;
+}
+
+#header-1 .main-nav .nav {
+    margin-top: 0px;
+}
+
+/********************************
+	Night Mode 
+********************************/
+
+.content-block {
     background-color: #333;
 }
 
-.content-block {
+.panel-primary {
+    border-color: #111;
+}
+
+.panel {
     background-color: #222;
 }
 
-************/
+.list-group-item {
+    background-color: #333;
+    border: 1px solid #000;
+}
+
+.videos-tab-title,
+#video-title {
+    color: #fff;
+}
+  
+.alert-info,
+.input-textbox {
+    background-color: #555;
+    border-color: #444;
+    color: #fff;
+}
