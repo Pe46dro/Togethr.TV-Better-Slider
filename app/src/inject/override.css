@@ -1,0 +1,99 @@
+
+/********************************
+	Cinema Mode 
+********************************/
+
+@media (min-width: 768px) {
+  .col-sm-6 {
+    width: 66.66666667%;
+  }
+  .col-sm-3 {
+    width: 16.66666667%;
+  }
+}
+
+#header-1 {
+    height: 35px;
+}
+
+#header-1 .main-nav {
+    height: 55px;
+}
+
+#header-1 .brand-img {
+    padding: 10px 0;
+}
+
+#header-1 .main-nav .nav {
+    margin-top: 0px;
+}
+
+#audio-chat-section,
+#playback-rights-section {
+    font-size: 11px;
+}
+
+.panel-body {
+    padding: 5px;
+}
+
+/********************************
+	Night Mode 
+********************************/
+
+body,
+.content-block {
+    background-color: #333;
+}
+
+.panel-primary,
+.videos-tab-list {
+    border-color: #111;
+}
+
+.panel {
+    background-color: #222;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #111;
+}
+
+.list-group-item {
+    background-color: #333;
+    border: 1px solid #111;
+	color: #fff;
+}
+
+.list-group-item span
+#loading-well h4,
+.videos-tab-title,
+#video-title {
+    color: #fff;
+}
+ 
+.well,
+.alert-info,
+.input-textbox {
+    background-color: #555;
+    border-color: #444;
+    color: #fff;
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}

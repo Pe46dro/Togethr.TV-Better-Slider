@@ -12,7 +12,7 @@
   "permissions": [
     "https://togethr.tv/*"
   ],
-  "web_accessible_resources": ["src/inject/script.js"],
+  "web_accessible_resources": ["src/inject/script.js","src/inject/override.css"],
   "content_scripts": [
     {
       "matches": [
