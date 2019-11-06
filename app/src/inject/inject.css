@@ -53,6 +53,15 @@ p#ttbs-slider-value {
 	Cinema Mode 
 ********************************/
 
+@media (min-width: 768px) {
+  .col-sm-6 {
+    width: 66.66666667%;
+  }
+  .col-sm-3 {
+    width: 16.66666667%;
+  }
+}
+
 #header-1 {
     height: 35px;
 }
